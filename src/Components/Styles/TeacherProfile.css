@@ -1,0 +1,15 @@
+.social-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.facebook { background: #3b5998; }
+.twitter { background: #1da1f2; }
+.google { background: #db4437; }
+.linkedin { background: #0077b5; }

@@ -1,0 +1,38 @@
+
+.hero-slider {
+  width: 100%;
+}
+
+
+.hero-slide {
+  min-height: 90vh;     
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-slide .container,
+.hero-slide .row {
+  height: 100%;
+}
+
+.hero-slide h2 {
+  font-size: 42px;
+  font-weight: 700;
+  padding-top: 80px;
+ 
+}
+
+.hero-slide p {
+  margin: 15px 0 25px;
+  max-width: 450px;
+}

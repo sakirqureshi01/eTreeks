@@ -1,0 +1,47 @@
+ @media (min-width: 992px) {
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+
+ 
+
+
+
+
+
+
+.course-list li {
+  padding: 14px 0;
+  border-bottom: 1px dashed #dcdcdc;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.course-list li:last-child {
+  border-bottom: none;
+}
+
+.latest-item {
+  display: flex;
+  gap: 15px;
+  padding: 15px 0;
+  border-bottom: 1px dashed #dcdcdc;
+}
+
+.latest-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.latest-item:last-child {
+  border-bottom: none;
+}
+
+.latest-item p {
+  font-size: 14px;
+} 
