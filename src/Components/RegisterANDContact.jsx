@@ -31,18 +31,19 @@ function RegisterANDContact() {
 
             {/* RIGHT FORM */}
             <div className="col-lg-7">
-              <div className="d-flex flex-column flex-md-row align-items-center gap-3">
+              <div className="d-flex flex-column flex-md-row align-items-center gap-5" style={{width:"500px"}}>
 
                 <input
                   type="email"
-                  placeholder="Your email address"
+                  placeholder="Your email address" 
                   className="form-control bg-transparent text-white border-0 border-bottom rounded-0"
                   style={{
-                    boxShadow: "none",
+                   
+                  
                   }}
                 />
 
-                <button className="btn btn-danger px-4 py-3 fw-semibold">
+                <button className="btn btn-danger  " style={{height:"40px", width:"240px"}}>
                   Subscribe Now
                 </button>
 

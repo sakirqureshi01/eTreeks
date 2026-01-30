@@ -33,9 +33,9 @@ function YoutubeVideo() {
   <section className="py-5">
   <div className="container text-center">
 
-    <p className="mb-4 fw-medium">
+    <h3 className="">
       Trusted by companies of all sizes:
-    </p>
+    </h3>
 
     <marquee
       behavior="scroll"
@@ -46,21 +46,21 @@ function YoutubeVideo() {
       <div className="d-flex align-items-center gap-5">
 
         {/* Logos */}
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-1.png" className="img-fluid "   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-2.png" className="img-fluid"   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-3.png" className="img-fluid"   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-4.png" className="img-fluid"   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-5.png" className="img-fluid"   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-6.png" className="img-fluid"   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-7.png" className="img-fluid"   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-7.png" className="img-fluid"    style={{ width: "140px", height: "60px", objectFit: "contain" }}/>
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-5.png" className="img-fluid"    style={{ width: "140px", height: "60px", objectFit: "contain" }}/>
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-1.png" className="img-fluid "   style={{ width: "140px", height: "80px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-2.png" className="img-fluid"   style={{ width: "140px", height: "80px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-3.png" className="img-fluid"   style={{ width: "140px", height: "80px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-4.png" className="img-fluid"   style={{ width: "140px", height: "80px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-5.png" className="img-fluid"   style={{ width: "140px", height: "80px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-6.png" className="img-fluid"   style={{ width: "140px", height: "80px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-7.png" className="img-fluid"   style={{ width: "140px", height: "80px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-7.png" className="img-fluid"    style={{ width: "140px", height: "80px", objectFit: "contain" }}/>
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-5.png" className="img-fluid"    style={{ width: "140px", height: "80px", objectFit: "contain" }}/>
        
 
         {/* 👇 SAME LOGOS DUPLICATE (for smooth loop) */}
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-7.png" className="img-fluid"    style={{ width: "140px", height: "60px", objectFit: "contain" }}/>
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-1.png" className="img-fluid"   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
-        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-3.png" className="img-fluid"   style={{ width: "140px", height: "60px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-7.png" className="img-fluid"    style={{ width: "140px", height: "100px", objectFit: "contain" }}/>
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-1.png" className="img-fluid"   style={{ width: "140px", height: "100px", objectFit: "contain" }} />
+        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-3.png" className="img-fluid"   style={{ width: "140px", height: "100px", objectFit: "contain" }} />
        
       </div>
     </marquee>
@@ -68,7 +68,7 @@ function YoutubeVideo() {
   </div>
 </section>
 
-
+<hr />
       
     </>
   );
@@ -76,55 +76,5 @@ function YoutubeVideo() {
 
 export default YoutubeVideo;
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0gv7OC9L2s8?si=6ENHmeJAVSt1LNlW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{/* <iframe width="560" height="315" src="https://www.youtube.com/embed/0gv7OC9L2s8?si=6ENHmeJAVSt1LNlW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
 
-
-// import React from 'react'
-// import "bootstrap/dist/css/bootstrap.min.css";
-// //import "../Components/Styles/youtubevideo.css";
-
-// function YoutubeVideo() {
-//   return (
-//    <>
-//    <div className="container py-5 text-center">
-//   <h2 className="fw-bold text-dark">
-//     Find the right instructor for you from <br /> over 10,000 teachers
-//   </h2>
-
-//   <p className="text-dark-50 mb-4">
-//     Feugiat primis ligula risus auctor laoreet augue egestas
-//   </p>
-
-//   <div className="video-box mx-auto">
-   
-//     <iframe width="80%" height="250" src="https://www.youtube.com/embed/0gv7OC9L2s8?si=ckah5sFqi6aUI35S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-//   </div>
-// </div>
-
-
-// <div className="container py-5 text-center">
-//   <p className="text-muted mb-4">Trusted by companies of all sizes:</p>
-
-//   <div className="logo-slider mx-auto">
-//     <div className="logo-track justify-content: center margin: auto ">
-//          <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-1.png" alt="" />
-//       <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-2.png" alt="" />
-//       <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-3.png" alt="" />
-//       <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-4.png" alt="" />
-//      <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-5.png" alt="" />
-//       {/* duplicate for infinite loop */}
-//       <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-7.png" alt="" />
-//       <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-6.png" alt="" />
-//        <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-4.png" alt="" />
-//       <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-7.png" alt="" />
-//       <img src="https://jthemes.net/themes/html/etreeks/files/images/brand-1.png" alt="" />
-//     </div>
-//   </div>
-// </div>
-
-
-//    </>
-//   )
-// }
-
-// export default YoutubeVideo

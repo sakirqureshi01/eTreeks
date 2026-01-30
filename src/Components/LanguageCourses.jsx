@@ -16,6 +16,7 @@ function LanguageCourses() {
     <>
       {/* 🔹 BREADCRUMB */}
       <section className="bg-light py-3 border-bottom">
+    
         <div className="container">
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb mb-0">
@@ -38,54 +39,52 @@ function LanguageCourses() {
       </section>
 
       {/* 🔹 HERO BANNER */}
-      <section
-        className="text-white"
+
+       <section
+        className="d-flex align-items-center text-white"
         style={{
-          background:
-            "linear-gradient(90deg, rgba(220,53,69,0.9), rgba(111,66,193,0.9))",
-          padding: "90px 0",
+          minHeight: "350px",
+          backgroundImage: `
+            linear-gradient(
+              to right,
+              rgba(190, 60, 80, 0.85),
+              rgba(120, 40, 100, 0.85)
+            ),
+            url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f")
+          `,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="container">
-          <div className="col-lg-8">
+          <h1 className="fw-bold display-5">
+            English Language Courses
+          </h1>
 
-            <h1 className="fw-bold mb-3">Language Courses</h1>
+          <div className="d-flex align-items-center gap-4 my-3 flex-wrap">
+            <span>
+              <strong>289</strong> courses found
+            </span>
 
-            <div className="d-flex flex-wrap align-items-center gap-4 mb-2 small">
-              <span>
-                <strong>386</strong> courses found
-              </span>
-
-              <div className="d-flex align-items-center gap-3">
-                <FaFacebookF />
-                <FaTwitter />
-                <FaEnvelope />
-                <FaBookmark />
-                <span>19.7k</span>
-              </div>
+            <div className="d-flex gap-3 fs-5">
+              <i className="bi bi-facebook"></i>
+              <i className="bi bi-twitter"></i>
+              <i className="bi bi-envelope"></i>
+              <i className="bi bi-bookmark"></i>
             </div>
 
-            <p className="mb-0">
-              <strong>24,648 students</strong> are learning Foreign Language on
-              eTreeks
-            </p>
-
+            <span>
+              <strong>8.4k</strong>
+            </span>
           </div>
-        </div>
-      </section>
 
-      {/* 🔹 CONTENT INTRO */}
-      <section className="pb-3 bg-white">
-        <div className="container">
-          <h2 className="fw-bold mb-3">
-            Top Language Courses of 2019
-          </h2>
-          <p className="text-muted col-lg-8 mb-0">
-            Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis
-            libero tempus, blandit posuere and ligula varius magna a porta
+          <p className="fs-5">
+            <strong>9,463 students</strong> are learning English Language on eTreeks
           </p>
         </div>
       </section>
+     
+
       <BestCoursesAllTime/>
       <SelectLanguage/>
       <HighestRatedCourses/>
@@ -99,4 +98,3 @@ export default LanguageCourses
 
 
 
-//  LanguageCourses

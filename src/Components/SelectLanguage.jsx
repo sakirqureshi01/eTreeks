@@ -55,7 +55,9 @@ const languages = [
 
 function SelectLanguage() {
   return (
-    <section className="py-5 bg-light">
+    <>
+    <hr />
+    <section className="py-3 bg-light" style={{marginTop:"-80px"}}>
       <div className="container">
 
         {/* HEADER */}
@@ -114,6 +116,8 @@ function SelectLanguage() {
 
       </div>
     </section>
+    <hr />
+    </>
   );
 }
 

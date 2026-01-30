@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 function LatestNews() {
   return (
+    <>
+     <section className="bg-light text-center py-3" style={{ marginTop: "-90px" }}></section>
     <div className="container py-5">
       {/* Header */}
       <div className="row align-items-center mb-5">
@@ -75,6 +77,8 @@ function LatestNews() {
       </div>
       <hr />
     </div>
+    <section/>
+    </>
     
   );
 }

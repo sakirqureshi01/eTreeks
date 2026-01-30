@@ -36,7 +36,7 @@ function TeamSection() {
   const [hovered, setHovered] = useState(null);
 
   return (
-    <section className="py-5">
+    <section className="py-4">
       <div className="container">
         <div className="row">
 
@@ -103,95 +103,3 @@ function TeamSection() {
 }
 
 export default TeamSection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import "../Components/Styles/TeamSection.css";
-// import { FaFacebook,FaTwitterSquare, FaLinkedinIn  } from "react-icons/fa";
-
-// const teamData = [
-//   {
-//     name: "Sam Richardson",
-//     role: "Head Of Department",
-//     img: "https://jthemes.net/themes/html/etreeks/files/images/team-1.jpg",
-//     rating: "4.89",
-//     reviews: "31 Reviews",
-//   },
-//   {
-//     name: "Kally Brooks",
-//     role: "Business & Management",
-//     img: "https://jthemes.net/themes/html/etreeks/files/images/team-2.jpg",
-//     rating: "4.38",
-//     reviews: "17 Reviews",
-//   },
-//   {
-//     name: "Robert Coronado",
-//     role: "Engineering & Technology",
-//     img: "https://jthemes.net/themes/html/etreeks/files/images/team-3.jpg",
-//     rating: "4.64",
-//     reviews: "23 Reviews",
-//   },
-//   {
-//     name: "Grow with eTreeks",
-//     role: "hireme@domain.com",
-//     img: "https://jthemes.net/themes/html/etreeks/files/images/team-13.jpg",
-//     rating: "0.00",
-//     reviews: "0 Reviews",
-//   },
-// ];
-
-// function TeamSection() {
-//   return (
-//     <section className="py-5">
-//       <div className="container">
-//         <div className="row">
-//           {teamData.map((item, index) => (
-//             <div className="col-lg-3 col-md-6 mb-4" key={index}>
-//               <div className="team-card text-center">
-//                 <div className="img-box">
-//                   <img src={item.img} alt={item.name} className="img-fluid" />
-//                   <div className="overlay">
-//                     <FaFacebook />
-//                     <FaTwitterSquare />
-//                     <FaLinkedinIn />
-                   
-//                   </div>
-//                 </div>
-
-//                 <h5 className="mt-3">{item.name}</h5>
-//                 <p className="text-muted">{item.role}</p>
-
-//                 <div className="rating">
-//                   ⭐⭐⭐⭐⭐ <span>{item.rating}</span>
-//                 </div>
-//                 <small className="text-muted">{item.reviews}</small>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//       <hr />
-//     </section>
-//   );
-// }
-
-// export default TeamSection;
-
-
-
-

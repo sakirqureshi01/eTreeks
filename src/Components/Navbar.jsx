@@ -9,10 +9,12 @@ function Navbar() {
 
         {/* LOGO */}
         <Link to="/" className="navbar-brand d-flex align-items-center gap-2">
-          <img
-            src="https://jthemes.net/themes/html/etreeks/files/images/logo.png"
-            alt="eTreeks"
-            style={{ width: "140px" }}
+          <img src="https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNjk3YzQxYjJjMTY0ODE5MWI2YTc2YmM0ZTY5M2Y2MTk6ZmlsZV8wMDAwMDAwMGJhZGM3MjA4ODI1YjA2OGY3MTlkZjc4MyIsInRzIjoiMjA0ODMiLCJwIjoicHlpIiwiY2lkIjoiMSIsInNpZyI6ImFlODVjYWUxOTI2MTc2MmEyYWMxZmZiZGY0NWIyNDQwZGRjYjU4MDJiMWRhMWQ3MWYwOGI4OWZlN2IwMDlmMGEiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsLCJjcyI6bnVsbCwiY3AiOm51bGwsIm1hIjpudWxsfQ==" alt="eTreeks" 
+           
+
+            // src="https://jthemes.net/themes/html/etreeks/files/images/logo.png"
+            // alt="eTreeks"
+            style={{ width: "180px", height:"80px" }}
           />
         </Link>
 

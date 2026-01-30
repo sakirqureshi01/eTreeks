@@ -4,18 +4,20 @@ import { Link } from "react-router-dom";
 function MostPopularCourses() {
   return (
     <section
-      className="py-5"
-      style={{ background: "#fafafa" }}
+      className=" "
+      style={{ background: "#fafafa", height:"150px" }}
     >
       <div className="container">
-        <div className="d-flex justify-content-between align-items-center flex-wrap gap-3 text-center text-md-start">
+        <div className="d-flex justify-content-between align-items-center flex-wrap gap-3 text-center text-md-start mb-5">
 
           {/* CONTENT */}
-          <div style={{ maxWidth: "700px" }}>
-            <h2 className="fw-bold">Most Popular Courses</h2>
-            <p className="text-muted mt-3">
-              Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-              primis libero tempus, blandit posuere and ligula varius magna
+          <div style={{ maxWidth: "700px",
+          
+           }}>
+            <h2 className="fw-bold py-2 ">Most Popular Courses</h2>
+            <p className="text-muted ">
+              Aliquam a augue suscipit, luctus neque purus ipsum neque  brdolor <br />
+              primis libero tempus, br blandit posuere and ligula varius magna
               a porta
             </p>
           </div>
@@ -28,7 +30,7 @@ function MostPopularCourses() {
                 background: "#fff",
                 color: "#333",
                 border: "2px solid #e5e5e5",
-                padding: "14px 30px",
+                padding: "10px 25px",
                 borderRadius: "10px",
                 transition: "0.3s",
               }}
@@ -65,44 +67,3 @@ export default MostPopularCourses;
 
 
 
-
-
-
-// import "bootstrap/dist/css/bootstrap.min.css";
-
-// import { Link } from "react-router-dom";
-// import "../Components/Styles/MostPopularCourses.css";
-
-// function MostPopularCourses() {
-//   return (
-//     <>
-//     <section className="popular-courses-section py-5">
-//       <div className="container">
-//         <div className="d-flex justify-content-between align-items-center flex-wrap gap-3">
-
-          
-//           <div className="content">
-//             <h2 className="fw-bold">Most Popular Courses</h2>
-//             <p className="text-muted mt-3">
-//               Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-//               primis libero tempus, blandit posuere and ligula varius magna
-//               a porta
-//             </p>
-//           </div>
-
-//           <Link to="/View All Courses"><button className="btn view-all-btn">
-//             View All Courses
-//           </button></Link>
-          
-
-//         </div>
-//       </div>
-
-//     </section>
-    
-//     </>
-
-//   );
-// }
-
-// export default MostPopularCourses;

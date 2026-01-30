@@ -1,0 +1,54 @@
+/* ==================================================
+   Trending Swiper – Custom Navigation Styles
+   Fixes Bootstrap overflow + controls arrow size
+   ================================================== */
+
+/* Allow swiper arrows outside Bootstrap container */
+.container,
+section {
+  overflow: visible !important;
+}
+
+/* MAIN: control arrow icon size (IMPORTANT) */
+.trending-swiper {
+  --swiper-navigation-size: 14px; /* arrow icon size */
+}
+
+/* Navigation button style */
+.trending-swiper .swiper-button-prev,
+.trending-swiper .swiper-button-next {
+  width: 30px;                 /* button size */
+  height: 30px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  z-index: 1000;
+}
+
+/* Hover effect */
+.trending-swiper .swiper-button-prev:hover,
+.trending-swiper .swiper-button-next:hover {
+  background: #ff4d00;
+  color: #ffffff;
+}
+
+/* Optional: position arrows slightly inside */
+.trending-swiper .swiper-button-prev {
+  left: -10px;
+}
+
+.trending-swiper .swiper-button-next {
+  right: -10px;
+}
+
+/* Hide arrows on mobile (swipe only) */
+@media (max-width: 768px) {
+  .trending-swiper .swiper-button-prev,
+  .trending-swiper .swiper-button-next {
+    display: none !important;
+  }
+}

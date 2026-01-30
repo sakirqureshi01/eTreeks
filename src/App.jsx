@@ -27,7 +27,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contacts" element={<ContactUs />} />
         <Route path="/Blog" element={<Blog/>}/>
-        {/* <Route path="/View All Courses" element={<FindOutMore/>}/>   */}
         <Route path="/Read More Stories" element={<Blog/>}/>
         <Route path="/View All Courses" element={<FindOutMore/>}/>
        <Route path="Find Out Moree" element={<BcomeTecherFindOut/>}/>
@@ -65,55 +64,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import { Routes, Route } from "react-router-dom";
-// import Navbar from "./Components/Navbar";
-// import Home from "./Components/Home";
-// import Footer from "./Components/Footer";
-// import { BrowserRouter } from "react-router-dom";
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-// import ContactUs from "./Components/ContactUs";
-
-
-
-
-
-
-// function App() {
-//   return (
-//     <>
-//      <Navbar/>
-//      <Home/>
-  
-//     const router = createBrowserRouter([
-//   {
-//    path:"/contactsUs",
-//    elemet:<ContactUs/>
-//   },
-//     ] )
-
-   
-  
-      
-//     </>
-//   );
-// }
-
-// export default App;
-
- 

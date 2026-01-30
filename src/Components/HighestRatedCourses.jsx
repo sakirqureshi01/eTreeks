@@ -66,7 +66,7 @@ const courses = [
 
 function HighestRatedCourses() {
   return (
-    <section className="py-5 bg-white">
+    <section className="py-5 bg-white" style={{marginTop:"-100px"}}>
       <div className="container">
 
         {/* HEADER */}
