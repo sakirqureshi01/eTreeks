@@ -16,14 +16,14 @@ function ContactUs() {
       </div>
 
       {/* CONTACT SECTION */}
-      <section className="py-5 bg-white">
-        <div className="container text-center">
+      <section className=" bg-white">
+        <div className="container text-center" >
 
           {/* Heading */}
-          <h2 className="fw-bold mb-3">
+          <h2 className="fw-bold mb-3 ">
             Need Help? Get in Touch
           </h2>
-          <p className="text-muted mb-5">
+          <p className="text-muted mb-4">
             Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
             <br />
             libero tempus, blandit posuere and ligula varius magna a porta
@@ -35,13 +35,14 @@ function ContactUs() {
             style={{
               borderRadius: "15px",
               overflow: "hidden",
-              background: "#fff",
+              background: "#faf7f7",
+             
             }}
           >
             {/* Card 1 */}
             <div className="col-md-4 p-5">
               <FaMapMarkerAlt
-                style={{ fontSize: "48px", color: "#ff2d55" }}
+                style={{ fontSize: "48px", color: "#f30a35" }}
               />
               <h5 className="fw-bold mt-3">Our Location</h5>
               <p className="text-muted">

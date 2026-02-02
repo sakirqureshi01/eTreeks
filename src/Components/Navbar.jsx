@@ -1,21 +1,29 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo-1.png";
+import '../Components/Styles/Navbar.css'
+
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-white border-bottom">
+    <nav className="navbar navbar-expand-lg bg-white border-bottom ">
       <div className="container">
 
         {/* LOGO */}
-        <Link to="/" className="navbar-brand d-flex align-items-center gap-2">
-          <img src="https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNjk3YzQxYjJjMTY0ODE5MWI2YTc2YmM0ZTY5M2Y2MTk6ZmlsZV8wMDAwMDAwMGJhZGM3MjA4ODI1YjA2OGY3MTlkZjc4MyIsInRzIjoiMjA0ODMiLCJwIjoicHlpIiwiY2lkIjoiMSIsInNpZyI6ImFlODVjYWUxOTI2MTc2MmEyYWMxZmZiZGY0NWIyNDQwZGRjYjU4MDJiMWRhMWQ3MWYwOGI4OWZlN2IwMDlmMGEiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsLCJjcyI6bnVsbCwiY3AiOm51bGwsIm1hIjpudWxsfQ==" alt="eTreeks" 
+        <Link to="/" className="navbar-brand d-flex align-items-center gap-2"
+        style={{height:"60px"}}>
+         
            
 
-            // src="https://jthemes.net/themes/html/etreeks/files/images/logo.png"
-            // alt="eTreeks"
-            style={{ width: "180px", height:"80px" }}
-          />
+           <img src={logo}
+                alt="Sakir Raza Logo"
+                className="navbar-logo"
+                style={{ height: "90px" }}
+                />
+
+           
+          
         </Link>
 
         {/* TOGGLER */}
@@ -263,7 +271,7 @@ export default Navbar;
 
 
 
-
+ {/* <img src="https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNjk3YzQxYjJjMTY0ODE5MWI2YTc2YmM0ZTY5M2Y2MTk6ZmlsZV8wMDAwMDAwMGJhZGM3MjA4ODI1YjA2OGY3MTlkZjc4MyIsInRzIjoiMjA0ODMiLCJwIjoicHlpIiwiY2lkIjoiMSIsInNpZyI6ImFlODVjYWUxOTI2MTc2MmEyYWMxZmZiZGY0NWIyNDQwZGRjYjU4MDJiMWRhMWQ3MWYwOGI4OWZlN2IwMDlmMGEiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsLCJjcyI6bnVsbCwiY3AiOm51bGwsIm1hIjpudWxsfQ==" alt="eTreeks"  */}
 
 
 

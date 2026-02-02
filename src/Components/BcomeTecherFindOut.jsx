@@ -24,7 +24,7 @@ function BcomeTecherFindOut() {
           libero tempus, blandit posuere and ligula varius magna a porta
         </p>
 
-        {/* Cards */}
+        {/* Cards */}re
         <div className="row gy-4">
 
           {/* Card 1 */}

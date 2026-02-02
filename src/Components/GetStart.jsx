@@ -8,7 +8,7 @@ function GetStart() {
   return (
     <>
       {/* Breadcrumb */}
-      <div className="container py-3">
+      <div className="container py-2 mb-3 mt-2">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb mb-0">
             <li className="breadcrumb-item">
@@ -24,12 +24,12 @@ function GetStart() {
       <hr className="m-0" />
 
       {/* Page Title */}
-      <section className="py-5 text-center bg-light">
-        <div className="container">
-          <h2 className="fw-bold display-6">
+      <section className="py-3 text-center bg-light"  style={{marginBottom:"-60px"}}>
+        <div className="container " >
+          <h2 className="fw-bold display-6 mb-2 "style={{  marginTop:"-60px" }} >
             Our Transparent Pricing Plans
           </h2>
-          <p className="text-muted mt-3 mx-auto" style={{ maxWidth: "720px" }}>
+          <p className="text-muted mx-auto" style={{ maxWidth: "720px", marginTop:"30px" }}>
             Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis
             libero tempus, blandit posuere and ligula varius magna a porta
           </p>
@@ -37,7 +37,7 @@ function GetStart() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-5 bg-white">
+      <section className="py-5 bg-white" style={{margin:"40px"}}>
         <div className="container">
           <div className="row g-4 justify-content-center">
 

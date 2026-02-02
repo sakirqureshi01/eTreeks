@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-//import '../Components/Styles/TredingCategeris.css'
+import '../Components/Styles/TredingCategeris.css'
 
 import {
   FaMicrochip,
@@ -112,7 +112,3 @@ function TrendingCategories() {
 }
 
 export default TrendingCategories;
-
-
-
-

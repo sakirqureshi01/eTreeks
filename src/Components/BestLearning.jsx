@@ -47,6 +47,7 @@ function BestLearning() {
 
         {/* Heading */}
         <div className="text-center mb-5">
+       
           <h2 className="fw-bold">Best Learning Opportunities</h2>
           <p className="text-muted mt-2 mx-auto" style={{ maxWidth: "750px" }}>
             Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis
@@ -55,6 +56,7 @@ function BestLearning() {
         </div>
 
         {/* Cards */}
+       
         <div className="row g-4">
           {data.map((item, i) => (
             <div className="col-lg-4 col-md-6" key={i}>
