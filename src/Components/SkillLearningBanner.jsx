@@ -10,20 +10,22 @@ import {
 
 function SkillLearningBanner() {
   return (
-    <section
-      className="d-flex align-items-center text-white"
+
+     <section
+      className="d-flex align-items-center"
       style={{
-        minHeight: "100vh",
-        backgroundImage: "url('/src/assets/bg-03.jpg')",
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        position: "relative",
+       
       }}
     >
       {/* Overlay */}
       <div
         style={{
-          position: "absolute",
+        
           inset: 0,
           background:
             "linear-gradient(to right, rgba(88,70,140,0.9), rgba(63,59,130,0.9))",
@@ -45,29 +47,29 @@ function SkillLearningBanner() {
               a tempor laoreet
             </p>
 
-            {/* <button className="btn btn-danger px-4 py-3 mb-5 fw-semibold">
-              Start Learning Now!
-            </button> */}
+           
                  <Link to="/Start Learning">
               <button
                 className="btn btn-danger btn-lg px-4"
-                style={{
-                  transition: "0.3s",
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = "#fff";
-                  e.currentTarget.style.color = "#000";
-                  e.currentTarget.style.transform = "translateY(-2px)";
-                  e.currentTarget.style.boxShadow =
-                    "0 8px 20px rgba(224,23,78,0.4)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = "#dc3545";
-                  e.currentTarget.style.color = "#fff";
-                  e.currentTarget.style.transform = "translateY(0)";
-                  e.currentTarget.style.boxShadow = "none";
-                }}
-              >
+            
+               style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
                Start Learning
               </button>
             </Link>

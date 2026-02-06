@@ -7,7 +7,21 @@ import '../Components/Styles/Navbar.css'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-white border-bottom ">
+    <>
+     {/* <section
+      className="d-flex align-items-center"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    ></section> */}
+   
+    <nav className="navbar navbar-expand-lg  border-bottom "
+     
+    > 
       <div className="container">
 
         {/* LOGO */}
@@ -261,6 +275,8 @@ function Navbar() {
         </div>
       </div>
     </nav>
+   
+    </>
   );
 }
 

@@ -20,12 +20,19 @@ function SubCategoriesFind02() {
 
   return (
     <>
-      {/* SUB CATEGORIES */}
-      {/* <section
-        className="py-5"
-        style={{ backgroundColor: "#f6f8f8" }} */}
-         <section className="bg-white text-center py-5" style={{ marginTop: "-100px" }}
-      >
+     
+          <section
+      className="text-center py-5"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        marginTop:"-100px"
+      }}
+    >
+
         <div className="container">
 
           {/* Heading */}

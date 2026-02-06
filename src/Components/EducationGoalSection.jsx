@@ -5,7 +5,18 @@ import { GiBookmarklet, GiVote } from "react-icons/gi";
 function EducationGoalSection() {
   return (
     // <section className="bg-white text-center py-3">
-    <section className="bg-white text-center py-3" style={{ marginTop: "-100px" }}>
+    // <section className="bg-white text-center py-3"
+    //  style={{ marginTop: "-100px" }}>
+<section className="bg-white text-center py-3"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        marginTop:"-100px"
+      }}
+    >
 
       <div className="container">
 

@@ -76,7 +76,15 @@ function ViewAllCourse() {
       </section>
 
       {/* CATEGORY GRID */}
-      <div className="container my-5">
+      <div className="container my-5"
+        style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
         <div className="row g-4">
           {categories.map((item, index) => (
             <div key={index} className="col-lg-2 col-md-4 col-sm-6">
@@ -109,7 +117,15 @@ function ViewAllCourse() {
       </div>
 
       {/* INFO SECTION */}
-      <section className="py-5 bg-light">
+      <section className="py-5 bg-light"
+        style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
         <div className="container text-center">
           <h2 className="fw-bold">
             Our goal is to make online education work for everyone

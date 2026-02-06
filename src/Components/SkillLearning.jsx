@@ -2,9 +2,21 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 
+
 function SkillLearning() {
   return (
-    <section className="py-5 bg-light">
+    // <section className="py-5 bg-light">
+    <>
+     <section
+      className="d-flex align-items-center"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container py-4">
         <div className="row align-items-center">
 
@@ -37,23 +49,25 @@ function SkillLearning() {
             <Link to="/Get Start">
               <button
                 className="btn btn-danger btn-lg px-4"
-                style={{
-                  transition: "0.3s",
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = "#fff";
-                  e.currentTarget.style.color = "#000";
-                  e.currentTarget.style.transform = "translateY(-2px)";
-                  e.currentTarget.style.boxShadow =
-                    "0 8px 20px rgba(224,23,78,0.4)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = "#dc3545";
-                  e.currentTarget.style.color = "#fff";
-                  e.currentTarget.style.transform = "translateY(0)";
-                  e.currentTarget.style.boxShadow = "none";
-                }}
-              >
+             
+               style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
                 Get Start
               </button>
             </Link>
@@ -71,7 +85,9 @@ function SkillLearning() {
 
         </div>
       </div>
+        
     </section>
+   </>
   );
 }
 

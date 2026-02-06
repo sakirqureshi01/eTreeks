@@ -4,7 +4,15 @@ function YoutubeVideo() {
   return (
     <>
       {/* ===== VIDEO SECTION ===== */}
-      <section className="bg-dark text-white py-5">
+      <section className="bg-dark text-white py-5"
+        style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
         <div className="container text-center">
 
           <h1 className="fw-bold">
@@ -30,7 +38,15 @@ function YoutubeVideo() {
       </section>
 
       {/* ===== LOGO SLIDER ===== */}
-  <section className="py-5">
+  <section className="py-5"
+    style={{
+       
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
   <div className="container text-center">
 
     <h3 className="">

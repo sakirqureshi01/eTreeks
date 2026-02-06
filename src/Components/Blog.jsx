@@ -70,7 +70,15 @@ const BlogItem = ({ img, title, date, desc, tags }) => {
 function Blog() {
   return (
     <>
-    <section className="py-4">
+    <section className="py-4"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container">
 
         {/* Breadcrumb */}
@@ -161,25 +169,4 @@ function Blog() {
 }
 
 export default Blog;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

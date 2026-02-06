@@ -11,7 +11,15 @@ import HelpCTA from "./HelpCTA";
 function BcomeTecherFindOut() {
   return (
     <>
-    <section className="py-1">
+    <section className="py-1"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container text-center">
 
         {/* Heading */}

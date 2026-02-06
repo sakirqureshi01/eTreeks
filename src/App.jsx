@@ -16,6 +16,8 @@ import Reviews from "./Components/Reviews";
 import WordPress from "./Components/WordPress";
 import TeacherProfile from "./Components/TeacherProfile";
 import TeacherListing from "./Components/TeacherListing";
+import DemoBooking from "./Components/DemoBooking";
+import CareerTracks from "./Components/CareerTracks";
 
 
 function App() {
@@ -52,6 +54,11 @@ function App() {
         <Route path="/Course Details" element={<Blog/>}/> 
         <Route path="/FindOutMore-1" element={<FindOutMore/>} />
         <Route path="//Start Learning" element={<GetStart/>}/>
+        <Route path="/3 Days Free Demo-Class" element={<CareerTracks/>}/>
+        <Route path="/Demo-class" element={<DemoBooking/>}/>
+        <Route path="/Book a Demo" element={<DemoBooking/>}/>
+          
+
 
        </Routes>
 

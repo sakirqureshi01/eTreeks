@@ -82,6 +82,7 @@ function FindOutMore() {
   return (
     <>
       {/* Breadcrumb */}
+      
       <div className="container py-3">
         <small className="text-muted">
           Home <span className="mx-2">»</span> English Language Courses
@@ -146,7 +147,25 @@ function FindOutMore() {
               </p>
             </div>
 
-            <button className="btn btn-outline-danger">
+            <button className="btn btn-outline-danger"
+              style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
               View All Courses
             </button>
           </div>

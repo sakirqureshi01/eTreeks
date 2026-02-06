@@ -7,6 +7,7 @@ import HelpCTA from "./HelpCTA";
 function GetStart() {
   return (
     <>
+    
       {/* Breadcrumb */}
       <div className="container py-2 mb-3 mt-2">
         <nav aria-label="breadcrumb">
@@ -20,11 +21,22 @@ function GetStart() {
           </ol>
         </nav>
       </div>
-
+    
       <hr className="m-0" />
 
       {/* Page Title */}
-      <section className="py-3 text-center bg-light"  style={{marginBottom:"-60px"}}>
+      {/* <section className="py-3 text-center bg-light"  style={{marginBottom:"-60px"}}> */}
+        <section
+      className=" "
+      style={{
+       
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+         
+      }}
+    >
         <div className="container " >
           <h2 className="fw-bold display-6 mb-2 "style={{  marginTop:"-60px" }} >
             Our Transparent Pricing Plans
@@ -36,8 +48,17 @@ function GetStart() {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section className="py-5 bg-white" style={{margin:"40px"}}>
+  
+          <section
+      className="py-5"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
         <div className="container">
           <div className="row g-4 justify-content-center">
 
@@ -66,7 +87,25 @@ function GetStart() {
                   </li>
                 </ul>
 
-                <button className="btn btn-outline-secondary w-100">
+                <button className="btn btn-outline-secondary w-100"
+                  style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
                   Get Started
                 </button>
               </div>

@@ -43,7 +43,28 @@ function RegisterANDContact() {
                   }}
                 />
 
-                <button className="btn btn-danger  " style={{height:"40px", width:"240px"}}>
+                {/* <button className="btn btn-danger  " style={{height:"40px", width:"240px"}}> */}
+                   <button className="btn btn-danger  "
+                   style={{
+                    height:"40px",
+                    width:"240px",
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
                   Subscribe Now
                 </button>
 

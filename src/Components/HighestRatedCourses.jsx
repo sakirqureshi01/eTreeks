@@ -66,7 +66,18 @@ const courses = [
 
 function HighestRatedCourses() {
   return (
-    <section className="py-5 bg-white" style={{marginTop:"-100px"}}>
+ 
+      <section
+      className=" py-5"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        marginTop:"-100px"
+      }}
+    >
       <div className="container">
 
         {/* HEADER */}

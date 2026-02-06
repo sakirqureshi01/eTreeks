@@ -57,8 +57,19 @@ function SelectLanguage() {
   return (
     <>
     <hr />
-    <section className="py-3 bg-light" style={{marginTop:"-80px"}}>
+    {/* <section className="py-3 bg-light" style={{marginTop:"-80px"}}> */}
+       <section className="py-3 bg-light"
+       style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        marginTop:"-80px"
+      }}
+    >
       <div className="container">
+
 
         {/* HEADER */}
         <div className="mb-5">

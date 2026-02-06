@@ -17,8 +17,18 @@ import LearnBanner from "./LearnBanner";
 import CoursesSection from "./CoursesSection";
 import YoutubeVideo from "./YoutubeVideo";
 import TeamSection from "./TeamSection";
-import LanguageCourses from "./LanguageCourses";
-import RegisterANDContact from './RegisterANDContact';
+import { Link } from "react-router-dom";
+import CareerTracks from "./CareerTracks";
+import HeroSlider from './HeroSlider';
+import HighestRatedCourses from './HighestRatedCourses';
+import ViewAllCourse from "./ViewAllCourse";
+import Reviews from "./Reviews";
+import SelectLanguage from "./SelectLanguage";
+import StatsSection from "./StatsSection";
+import SubCategoriesFind02 from "./subCategoriesFind02";
+
+
+
 
 
 
@@ -69,9 +79,28 @@ function Home() {
                       Feugiat primis ligula gravida auctor egestas augue
                       viverra mauri tortor in iaculis placerat.
                     </p>
-                    <button className="btn btn-danger px-4">
-                      View Popular Courses
-                    </button>
+                    <Link to="/3 Days Free Demo-Class"> <button className="btn btn-danger px-4"
+                      style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
+                     3 Days Free Demo-Class
+                    </button></Link>
+                   
                   </div>
                 </div>
               </div>
@@ -107,7 +136,25 @@ function Home() {
                       Feugiat primis ligula gravida auctor egestas augue
                       viverra mauri tortor in iaculis placerat.
                     </p>
-                    <button className="btn btn-danger px-4">
+                    <button className="btn btn-danger px-4"
+                      style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
                       View Popular Courses
                     </button>
                   </div>
@@ -131,7 +178,7 @@ function Home() {
                 style={{
                   position: "absolute",
                   inset: 0,
-                  background: "rgba(0,0,0,0.55)",
+                  // background: "rgba(0,0,0,0.55)",
                 }}
               />
 
@@ -165,27 +212,28 @@ function Home() {
       </section>
 
       {/* OTHER SECTIONS */}
+      <HeroSlider/>
       <HomeFeatures />
       <AboutSection />
       <MostPopularCourses />
       <CoursesSection />
       <SkillLearning />
+    
       <SkillLearningBanner />
       <TrendingCategories />
-      <BestCourses />
+      <CareerTracks/>
+      {/* <BestCourses /> */}
       <BestCoursesAllTime />
       <TeacherBusinessSection />
       <TeamSection />
       <EducationGoalSection />
       <YoutubeVideo />
       <BestLearning />
-      <LatestNews />
+      {/* <LatestNews /> */}
       <LearnBanner />
-    
-     
-  
-     
       
+ 
+     
      
     </>
   );

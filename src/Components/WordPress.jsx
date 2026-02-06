@@ -43,7 +43,15 @@ console.log(slug);
 
 
   return (
-    <section className="py-5">
+    <section className="py-5"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container">
         <div className="row g-5">
 
@@ -159,14 +167,10 @@ console.log(slug);
       </div>
     </section>
           </div>
-{/* ////////////////////////////////////////// */}
+
 
       
-        
-          
-      
-      
-   
+  
           {/* RIGHT SIDEBAR */}
           <div className="col-lg-4">
             <div className="course-card shadow-sm">
@@ -189,7 +193,25 @@ console.log(slug);
                   Start Course Now
                 </button>
 
-                <button className="btn btn-outline-secondary w-100 mb-4">
+                <button className="btn btn-outline-secondary w-100 mb-4"
+                style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
                   Add To List
                 </button>
 

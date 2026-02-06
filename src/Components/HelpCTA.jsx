@@ -1,7 +1,7 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function HelpCTA() {
+ function HelpCTA() {
   return (
     <div className="container my-3 d-flex justify-content-center">
       <section
@@ -43,5 +43,5 @@ export default function HelpCTA() {
   );
 }
 
-
+export default HelpCTA;
 

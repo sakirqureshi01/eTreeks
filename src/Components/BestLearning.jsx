@@ -40,9 +40,17 @@ function BestLearning() {
   return (
  
     <>
-    <section className="bg-white text-center py-3" style={{ marginTop: "-90px" }}>
-
-    
+    {/* <section className="bg-white text-center py-3" style={{ marginTop: "-90px" }}> */}
+<section className="bg-white text-center py-3"
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        marginTop:"-90px"
+      }}
+    >
       <div className="container">
 
         {/* Heading */}

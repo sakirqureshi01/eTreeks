@@ -16,7 +16,15 @@ function ContactUs() {
       </div>
 
       {/* CONTACT SECTION */}
-      <section className=" bg-white">
+      <section className=" bg-white"
+        style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
         <div className="container text-center" >
 
           {/* Heading */}
@@ -42,7 +50,7 @@ function ContactUs() {
             {/* Card 1 */}
             <div className="col-md-4 p-5">
               <FaMapMarkerAlt
-                style={{ fontSize: "48px", color: "#f30a35" }}
+                style={{ fontSize: "48px", color: "#ff512f" }}
               />
               <h5 className="fw-bold mt-3">Our Location</h5>
               <p className="text-muted">
@@ -52,7 +60,7 @@ function ContactUs() {
               <button
                 className="btn btn-outline-secondary mt-3"
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.background = "#ff2d55";
+                  e.currentTarget.style.background = "linear-gradient(123deg, #f09819, #ff512f)",
                   e.currentTarget.style.color = "#fff";
                   e.currentTarget.style.borderColor = "#ff2d55";
                 }}
@@ -69,7 +77,7 @@ function ContactUs() {
             {/* Card 2 */}
             <div className="col-md-4 p-5 border-start">
               <FaGlobe
-                style={{ fontSize: "48px", color: "#ff2d55" }}
+                style={{ fontSize: "48px", color: "#ff512f" }}
               />
               <h5 className="fw-bold mt-3">
                 Partnership Request
@@ -81,9 +89,9 @@ function ContactUs() {
               <button
                 className="btn btn-outline-secondary mt-3"
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.background = "#ff2d55";
+                  e.currentTarget.style.background = "linear-gradient(123deg, #f09819, #ff512f)";
                   e.currentTarget.style.color = "#fff";
-                  e.currentTarget.style.borderColor = "#ff2d55";
+                  e.currentTarget.style.borderColor = "#ff512f";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.background = "transparent";
@@ -98,7 +106,7 @@ function ContactUs() {
             {/* Card 3 */}
             <div className="col-md-4 p-5 border-start">
               <FaQuestionCircle
-                style={{ fontSize: "48px", color: "#ff2d55" }}
+                style={{ fontSize: "48px", color: "#ff512f" }}
               />
               <h5 className="fw-bold mt-3">Need Help?</h5>
               <p className="text-muted">
@@ -108,7 +116,7 @@ function ContactUs() {
               <button
                 className="btn btn-outline-secondary mt-3"
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.background = "#ff2d55";
+                  e.currentTarget.style.background = "linear-gradient(123deg, #f09819, #ff512f)",
                   e.currentTarget.style.color = "#fff";
                   e.currentTarget.style.borderColor = "#ff2d55";
                 }}

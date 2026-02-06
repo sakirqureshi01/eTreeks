@@ -69,7 +69,16 @@ const courses = [
 
 function BestCourses() {
   return (
-    <section className="bg-light py-5">
+    <section className="bg-light py-5"
+       
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container">
         <div className="row g-4">
 

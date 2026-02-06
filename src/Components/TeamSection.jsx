@@ -36,7 +36,16 @@ function TeamSection() {
   const [hovered, setHovered] = useState(null);
 
   return (
-    <section className="py-4">
+    <section className="py-4"
+   
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container">
         <div className="row">
 

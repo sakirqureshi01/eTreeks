@@ -11,7 +11,17 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-white pt-5 border-top">
+    <>
+    
+    <footer className="bg-white pt-5 border-top"
+      style={{
+        minHeight: "50vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container">
         <div className="row gy-4">
 
@@ -82,7 +92,25 @@ function Footer() {
               className="form-control mb-3"
               placeholder="Your Email Address"
             />
-            <button className="btn btn-danger w-100 py-2">
+            <button className="btn btn-danger w-100 py-2"
+             style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
               Subscribe
             </button>
           </div>
@@ -114,13 +142,16 @@ function Footer() {
             </a>
 
             {/* Scroll Top */}
-            <button className="btn btn-secondary btn-sm">
+            <a href="#"><button className="btn btn-secondary btn-sm">
               <FaArrowUp />
-            </button>
+            </button></a>
+            
           </div>
         </div>
       </div>
     </footer>
+    
+    </>
   );
 }
 

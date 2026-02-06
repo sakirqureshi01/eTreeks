@@ -8,7 +8,16 @@ import TeacherListing from "./TeacherListing";
  function TeacherProfile() {
   return (
     <>
-    <section className="py-5">
+    <section className="py-5"
+  
+      style={{
+        minHeight: "90vh",
+        backgroundImage:
+          "url('https://qspiders.com/BackgroundWave.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container">
 
         {/* Breadcrumb */}
