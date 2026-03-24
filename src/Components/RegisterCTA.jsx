@@ -107,7 +107,7 @@ function RegisterCTA() {
                   />
                 </div>
 
-                <button className="btn btn-danger w-100 py-2 fw-semibold">
+                <button className="btn btn-outline-dark w-100 py-2 fw-semibold">
                   Register Now
                 </button>
               </div>

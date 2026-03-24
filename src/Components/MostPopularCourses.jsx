@@ -33,7 +33,7 @@ function MostPopularCourses() {
           <Link to="/View All Courses">
 
           <button
-  className="btn fw-semibold"
+  className="btn fw-semibold btn btn-outline-light"
   style={{
     background: "linear-gradient(123deg, #f09819, #ff512f)",
     border: "2px solid #e5e5e5",

@@ -50,7 +50,7 @@ function SkillLearningBanner() {
            
                  <Link to="/Start Learning">
               <button
-                className="btn btn-danger btn-lg px-4"
+                className="btn btn-outline-light btn-lg px-4"
             
                style={{
     background: "linear-gradient(123deg, #f09819, #ff512f)",

@@ -52,4 +52,3 @@ function HomeFeatures() {
 }
 
 export default HomeFeatures;
-

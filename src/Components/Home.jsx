@@ -7,12 +7,10 @@ import MostPopularCourses from "./MostPopularCourses";
 import SkillLearning from "./SkillLearning";
 import SkillLearningBanner from "./SkillLearningBanner";
 import TrendingCategories from "./TrendingCategories";
-import BestCourses from "./BestCourses";
 import BestCoursesAllTime from "./BestCoursesAllTime";
 import TeacherBusinessSection from "./TeacherBusinessSection";
 import EducationGoalSection from "./EducationGoalSection";
 import BestLearning from "./BestLearning";
-import LatestNews from "./LatestNews";
 import LearnBanner from "./LearnBanner";
 import CoursesSection from "./CoursesSection";
 import YoutubeVideo from "./YoutubeVideo";
@@ -20,19 +18,9 @@ import TeamSection from "./TeamSection";
 import { Link } from "react-router-dom";
 import CareerTracks from "./CareerTracks";
 import HeroSlider from './HeroSlider';
-import HighestRatedCourses from './HighestRatedCourses';
-import ViewAllCourse from "./ViewAllCourse";
-import Reviews from "./Reviews";
-import SelectLanguage from "./SelectLanguage";
-import StatsSection from "./StatsSection";
-import SubCategoriesFind02 from "./subCategoriesFind02";
-
-
-
-
-
-
-
+import RegisterCTA from "./RegisterCTA";
+ import slideImg from "../assets/img-slide-2.jpg";
+ import sing from "../assets/img-slide-1.jpg"
 
 
 
@@ -51,16 +39,18 @@ function Home() {
 
             {/* SLIDE 1 */}
             <div
-              className="carousel-item active"
-              style={{
-                minHeight: "90vh",
-                backgroundImage:
-                  "url(https://jthemes.net/themes/html/etreeks/files/images/slider/slide-1.jpg)",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                position: "relative",
-              }}
-            >
+           
+  className="carousel-item active"
+  style={{
+    minHeight: "90vh",
+     backgroundImage: `url(${slideImg})`,
+    // backgroundImage:"url(https://images.unsplash.com/photo-1605711285791-0219e80e43a3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRlYWNoaW5nfGVufDB8fDB8fHww)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    position: "relative",
+  }}
+>
+          
               <div
                 style={{
                   position: "absolute",
@@ -106,27 +96,30 @@ function Home() {
               </div>
             </div>
 
-            {/* SLIDE 2 */}
-            <div
-              className="carousel-item"
-              style={{
-                minHeight: "90vh",
-                backgroundImage:
-                  "url(https://jthemes.net/themes/html/etreeks/files/images/slider/slide-3.jpg)",
+           
+
+                   <div
+           
+          className="carousel-item active"
+           style={{
+           minHeight: "90vh",
+            backgroundImage: `url(${sing})`,
+          //  backgroundImage:
+          //         "url(https://www.freepik.com/free-photo/front-view-female-student-grey-jacket-wearing-her-yellow-backpack-holding-files-light-blue-wall_11406185.htm#fromView=keyword&page=1&position=15&uuid=62a9ad0b-9a65-40bf-b9da-d09263f7ecf5&query=Student",
                 backgroundSize: "cover",
-                backgroundPosition: "center",
-                position: "relative",
-              }}
-            >
-              <div
+              backgroundPosition: "center",
+             position: "relative",
+             }}
+>
+                <div
                 style={{
                   position: "absolute",
                   inset: 0,
                   background: "rgba(0,0,0,0.55)",
-                }}
+                   }}
               />
 
-              <div className="container h-100 position-relative">
+               <div className="container h-100 position-relative">
                 <div className="row h-100 align-items-center">
                   <div className="col-md-6 text-white">
                     <h2 className="fw-bold fs-1">
@@ -137,30 +130,38 @@ function Home() {
                       viverra mauri tortor in iaculis placerat.
                     </p>
                     <button className="btn btn-danger px-4"
-                      style={{
-    background: "linear-gradient(123deg, #f09819, #ff512f)",
-    border: "2px solid #e5e5e5",
-    padding: "10px 25px",
-    borderRadius: "10px",
-    transition: "0.3s",
-  }}
-  onMouseEnter={(e) => {
-    e.target.style.background =
-      "linear-gradient(123deg, #ff512f, #f09819)";
-    e.target.style.transform = "scale(1.05)";
-  }}
-  onMouseLeave={(e) => {
-    e.target.style.background =
-      "linear-gradient(123deg, #f09819, #ff512f)";
-    e.target.style.transform = "scale(1)";
-  }}
->
+                         style={{
+                         background: "linear-gradient(123deg, #f09819, #ff512f)",
+                         border: "2px solid #e5e5e5",
+                         padding: "10px 25px",
+                         borderRadius: "10px",
+                         transition: "0.3s",
+                         }}
+                        onMouseEnter={(e) => {
+                        e.target.style.background =
+                           "linear-gradient(123deg, #ff512f, #f09819)";
+                         e.target.style.transform = "scale(1.05)";
+                           }}
+                          onMouseLeave={(e) => {
+                            e.target.style.background =
+                           "linear-gradient(123deg, #f09819, #ff512f)";
+                           e.target.style.transform = "scale(1)";
+                                }}
+                             >
                       View Popular Courses
                     </button>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> 
+
+
+
+
+
+
+
+   
+</div>
 
             {/* SLIDE 3 */}
             <div
@@ -215,6 +216,7 @@ function Home() {
       <HeroSlider/>
       <HomeFeatures />
       <AboutSection />
+      
       <MostPopularCourses />
       <CoursesSection />
       <SkillLearning />
@@ -231,7 +233,7 @@ function Home() {
       <BestLearning />
       {/* <LatestNews /> */}
       <LearnBanner />
-      
+      <RegisterCTA/>
  
      
      

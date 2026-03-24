@@ -1,35 +1,37 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import img1 from "../assets/slider-sing.png";
 import {  FaTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 const teamData = [
   {
-    name: "Sam Richardson",
-    role: "Head Of Department",
-    img: "https://jthemes.net/themes/html/etreeks/files/images/team-1.jpg",
+    name: "Mr shankar",
+    role: "Canva Desinger",
+    img: "https://skillupgrade.in/uploads/thumbnails/course_thumbnails/optimized/course_thumbnail_default-new_161750334715.jpg",
     rating: "4.89",
     reviews: "31 Reviews",
   },
   {
-    name: "Kally Brooks",
-    role: "Business & Management",
-    img: "https://jthemes.net/themes/html/etreeks/files/images/team-2.jpg",
+    name: "Ajay Saini",
+    role: "Wrodpress Developer",
+    img: "https://skillupgrade.in/uploads/thumbnails/course_thumbnails/optimized/course_thumbnail_default-new_21750323784.jpg",
     rating: "4.38",
     reviews: "17 Reviews",
   },
   {
-    name: "Robert Coronado",
-    role: "Engineering & Technology",
-    img: "https://jthemes.net/themes/html/etreeks/files/images/team-3.jpg",
+    name: "Manish Kumar  ",
+    role: "Degital Marketing",
+    img: "https://skillupgrade.in/uploads/thumbnails/course_thumbnails/optimized/course_thumbnail_default-new_151750331479.jpg",
     rating: "4.64",
     reviews: "23 Reviews",
   },
   {
-    name: "Grow with eTreeks",
-    role: "hireme@domain.com",
-    img: "https://jthemes.net/themes/html/etreeks/files/images/team-13.jpg",
+    name: "Amit Kumar",
+    role: "IOS Developer",
+    img: "https://skillupgrade.in/uploads/thumbnails/course_thumbnails/optimized/course_thumbnail_default-new_51750830481.jpg",
     rating: "0.00",
     reviews: "0 Reviews",
   },
+  
 ];
 
 function TeamSection() {
@@ -62,8 +64,10 @@ function TeamSection() {
                   <img
                     src={item.img}
                     alt={item.name}
+                   
                     className="img-fluid w-100"
                     style={{
+                      height:"200px",
                       transition: "0.4s ease",
                       transform:
                         hovered === index ? "scale(1.1)" : "scale(1)",

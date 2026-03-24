@@ -35,7 +35,7 @@ function TeacherBusinessSection() {
                     mauris and viverra tortor iaculis an euugiat viverra
                   </p>
 
-                  <Link to="/Find Out Moree" className="btn btn-danger px-4 py-2"
+                  <Link to="/Find Out Moree" className="btn btn-outline-light px-4 py-2"
                   style={{
     background: "linear-gradient(123deg, #f09819, #ff512f)",
     border: "2px solid #e5e5e5",
@@ -81,7 +81,25 @@ function TeacherBusinessSection() {
                     mauris and viverra tortor iaculis an euugiat viverra
                   </p>
 
-                  <button className="btn btn-danger px-4 py-2">
+                  <button className="btn btn-outline-light px-4 py-2"
+                   style={{
+    background: "linear-gradient(123deg, #f09819, #ff512f)",
+    border: "2px solid #e5e5e5",
+    padding: "10px 25px",
+    borderRadius: "10px",
+    transition: "0.3s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #ff512f, #f09819)";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.background =
+      "linear-gradient(123deg, #f09819, #ff512f)";
+    e.target.style.transform = "scale(1)";
+  }}
+>
                     Find Out More
                   </button>
                 </div>

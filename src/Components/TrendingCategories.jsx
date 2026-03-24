@@ -66,7 +66,7 @@ function TrendingCategories() {
           </div>
 
           <Link to="/view-all-categories">
-            <button className="btn btn-outline-danger px-4 py-2 mt-5"
+            <button className="btn btn-outline-light px-4 py-2 mt-5"
              style={{
     background: "linear-gradient(123deg, #f09819, #ff512f)",
     border: "2px solid #e5e5e5",

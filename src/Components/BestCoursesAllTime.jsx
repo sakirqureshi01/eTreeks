@@ -100,8 +100,8 @@ function BestCoursesAllTime() {
           </div>
 
           <Link to="/View All Courses-001">
-            <button className="btn btn-outline px-2 py-2 mt-5"
-            style={{
+            <button className="btn btn-outline-light px-2 py-2 mt-5"
+         style={{
     background: "linear-gradient(123deg, #f09819, #ff512f)",
     border: "2px solid #e5e5e5",
     padding: "10px 25px",

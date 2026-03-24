@@ -193,7 +193,7 @@ console.log(slug);
                   Start Course Now
                 </button>
 
-                <button className="btn btn-outline-secondary w-100 mb-4"
+                <button className="btn btn-outline-light w-100 mb-4"
                 style={{
     background: "linear-gradient(123deg, #f09819, #ff512f)",
     border: "2px solid #e5e5e5",

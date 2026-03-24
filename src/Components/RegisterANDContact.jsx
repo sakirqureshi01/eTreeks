@@ -44,7 +44,7 @@ function RegisterANDContact() {
                 />
 
                 {/* <button className="btn btn-danger  " style={{height:"40px", width:"240px"}}> */}
-                   <button className="btn btn-danger  "
+                   <button className="btn btn-outline-light "
                    style={{
                     height:"40px",
                     width:"240px",

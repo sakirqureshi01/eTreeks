@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaMapMarkerAlt, FaGlobe, FaQuestionCircle } from "react-icons/fa";
+import RegisterCTA from "./RegisterCTA";
 
 function ContactUs() {
   return (
@@ -54,24 +55,31 @@ function ContactUs() {
               />
               <h5 className="fw-bold mt-3">Our Location</h5>
               <p className="text-muted">
-                121 King Street, Melbourne, Victoria <br />
-                3000 Australia
+                
+                KV_5 Mansrovar Jaipur Rajsthan <br /> (india)
               </p>
+            
               <button
-                className="btn btn-outline-secondary mt-3"
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.background = "linear-gradient(123deg, #f09819, #ff512f)",
-                  e.currentTarget.style.color = "#fff";
-                  e.currentTarget.style.borderColor = "#ff2d55";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.background = "transparent";
-                  e.currentTarget.style.color = "#6c757d";
-                  e.currentTarget.style.borderColor = "#6c757d";
-                }}
-              >
-                Find Location On Map
-              </button>
+  className="btn btn-outline-secondary mt-3"
+  onClick={() => {
+    window.open(
+      "https://www.google.com/maps?q=26.9124,75.7873", // Jaipur example
+      "_blank"
+    );
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.background = "linear-gradient(123deg, #f09819, #ff512f)";
+    e.currentTarget.style.color = "#fff";
+    e.currentTarget.style.borderColor = "#ff2d55";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.background = "transparent";
+    e.currentTarget.style.color = "#6c757d";
+    e.currentTarget.style.borderColor = "#6c757d";
+  }}
+>
+  Find Location On Map
+</button>
             </div>
 
             {/* Card 2 */}
@@ -146,7 +154,9 @@ function ContactUs() {
           />
         </div>
       </section>
+      <RegisterCTA/>
     </>
+    
   );
 }
 
